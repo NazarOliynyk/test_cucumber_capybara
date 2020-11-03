@@ -1,0 +1,22 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "name" : "suites",
+  "children" : [ {
+    "name" : "GmailTest",
+    "children" : [ {
+      "name" : "Verify Sending and Deleting of a letter, Examples (#1)",
+      "uid" : "9ac80f51eeef6907",
+      "parentUid" : "dddee9c467ff9fc9b54423878396d940",
+      "status" : "passed",
+      "time" : {
+        "start" : 1604390186076,
+        "stop" : 1604390198300,
+        "duration" : 12224
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "testepamivan@gmail.com", "myprojectmailsende@1" ]
+    } ],
+    "uid" : "dddee9c467ff9fc9b54423878396d940"
+  } ]
+}

@@ -1,0 +1,26 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "name" : "timeline",
+  "children" : [ {
+    "name" : "EPUALVIW060E",
+    "children" : [ {
+      "name" : "50500",
+      "children" : [ {
+        "name" : "Verify Sending and Deleting of a letter, Examples (#1)",
+        "uid" : "9ac80f51eeef6907",
+        "parentUid" : "e4d51822eb3d8a3500a6a86c90a0cde0",
+        "status" : "passed",
+        "time" : {
+          "start" : 1604390186076,
+          "stop" : 1604390198300,
+          "duration" : 12224
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "testepamivan@gmail.com", "myprojectmailsende@1" ]
+      } ],
+      "uid" : "e4d51822eb3d8a3500a6a86c90a0cde0"
+    } ],
+    "uid" : "cc1d2b68fa76370a31d3a6fe2cb9952f"
+  } ]
+}

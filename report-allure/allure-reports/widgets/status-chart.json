@@ -1,0 +1,11 @@
+[ {
+  "uid" : "9ac80f51eeef6907",
+  "name" : "Verify Sending and Deleting of a letter, Examples (#1)",
+  "time" : {
+    "start" : 1604390186076,
+    "stop" : 1604390198300,
+    "duration" : 12224
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

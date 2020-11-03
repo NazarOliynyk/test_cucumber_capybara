@@ -1,0 +1,265 @@
+{
+  "uid" : "9ac80f51eeef6907",
+  "name" : "Verify Sending and Deleting of a letter, Examples (#1)",
+  "fullName" : "GmailTest: Verify Sending and Deleting of a letter, Examples (#1)",
+  "historyId" : "9869df56a950598fccc6f7231697d8e1",
+  "time" : {
+    "start" : 1604390186076,
+    "stop" : 1604390198300,
+    "duration" : 12224
+  },
+  "description" : "Location - features/gmail.feature:18:5",
+  "descriptionHtml" : "Location - features/gmail.feature:18:5",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "cucumber.rb:14",
+    "time" : {
+      "start" : 1604390186237,
+      "stop" : 1604390186237,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  }, {
+    "name" : "cucumber.rb:22",
+    "time" : {
+      "start" : 1604390186237,
+      "stop" : 1604390186237,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "testStage" : {
+    "description" : "Location - features/gmail.feature:18:5",
+    "descriptionHtml" : "Location - features/gmail.feature:18:5",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Given I go to gmail",
+      "time" : {
+        "start" : 1604390186238,
+        "stop" : 1604390190827,
+        "duration" : 4589
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "When I insert the login \"<email>\"",
+      "time" : {
+        "start" : 1604390190827,
+        "stop" : 1604390191115,
+        "duration" : 288
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "And I insert the password \"<password>\"",
+      "time" : {
+        "start" : 1604390191115,
+        "stop" : 1604390192057,
+        "duration" : 942
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "Then I should check if I logged in",
+      "time" : {
+        "start" : 1604390192057,
+        "stop" : 1604390195359,
+        "duration" : 3302
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "And I should send the letter",
+      "time" : {
+        "start" : 1604390195359,
+        "stop" : 1604390195648,
+        "duration" : 289
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "When I send a letter to \"nazar_lw@ukr.net\" with subject \"Test subject\" and content \"Test content of the letter\"",
+      "time" : {
+        "start" : 1604390195648,
+        "stop" : 1604390196613,
+        "duration" : 965
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "Then I should check if the subject of the last letter is equal to  \"Test subject\"",
+      "time" : {
+        "start" : 1604390196613,
+        "stop" : 1604390197197,
+        "duration" : 584
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "Then I should delete the letter and check whether it was really deleted",
+      "time" : {
+        "start" : 1604390197197,
+        "stop" : 1604390197791,
+        "duration" : 594
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    } ],
+    "attachments" : [ {
+      "uid" : "c77fbafd8d5d960",
+      "name" : "attachment.png",
+      "source" : "c77fbafd8d5d960.png",
+      "type" : "image/png",
+      "size" : 90868
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true,
+    "stepsCount" : 8
+  },
+  "afterStages" : [ {
+    "name" : "env.rb:69",
+    "time" : {
+      "start" : 1604390197791,
+      "stop" : 1604390198102,
+      "duration" : 311
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  }, {
+    "name" : "cucumber.rb:10",
+    "time" : {
+      "start" : 1604390198103,
+      "stop" : 1604390198289,
+      "duration" : 186
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "cucumber"
+  }, {
+    "name" : "feature",
+    "value" : "GmailTest"
+  }, {
+    "name" : "package",
+    "value" : "features"
+  }, {
+    "name" : "suite",
+    "value" : "GmailTest"
+  }, {
+    "name" : "story",
+    "value" : "Verify Sending and Deleting of a letter, Examples (#1)"
+  }, {
+    "name" : "testClass",
+    "value" : "gmail"
+  }, {
+    "name" : "thread",
+    "value" : "50500"
+  }, {
+    "name" : "host",
+    "value" : "EPUALVIW060E"
+  }, {
+    "name" : "language",
+    "value" : "ruby"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "email",
+    "value" : "testepamivan@gmail.com"
+  }, {
+    "name" : "password",
+    "value" : "myprojectmailsende@1"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "9ac80f51eeef6907.json",
+  "parameterValues" : [ "testepamivan@gmail.com", "myprojectmailsende@1" ]
+}

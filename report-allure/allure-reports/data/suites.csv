@@ -1,0 +1,2 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Tue Nov 03 09:56:26 EET 2020","Tue Nov 03 09:56:38 EET 2020","12224","","GmailTest","","gmail","","Verify Sending and Deleting of a letter, Examples (#1)","Location - features/gmail.feature:18:5"

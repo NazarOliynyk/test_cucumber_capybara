@@ -1,0 +1,22 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "name" : "packages",
+  "children" : [ {
+    "name" : "features",
+    "children" : [ {
+      "name" : "Verify Sending and Deleting of a letter, Examples (#1)",
+      "uid" : "9ac80f51eeef6907",
+      "parentUid" : "05c057f933be9add362d425b7a690409",
+      "status" : "passed",
+      "time" : {
+        "start" : 1604390186076,
+        "stop" : 1604390198300,
+        "duration" : 12224
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "testepamivan@gmail.com", "myprojectmailsende@1" ]
+    } ],
+    "uid" : "05c057f933be9add362d425b7a690409"
+  } ]
+}
